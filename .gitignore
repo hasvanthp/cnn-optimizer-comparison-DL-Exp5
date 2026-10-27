@@ -1,0 +1,39 @@
+```gitignore
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+
+# Testing and linting
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Machine learning models
+*.keras
+*.h5
+*.pkl
+*.joblib
+saved_models/
+
+# Secrets
+.env
+
+# Editor and operating system
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+```
